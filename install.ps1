@@ -30,7 +30,7 @@ winget add -e --id Brave.Brave -l "D:\programs\brave" -i
 winget add -e --id Microsoft.PowerToys -l "D:\programs\powertoys" -i
 winget add -e --id OBSProject.OBSStudio -l "D:\programs\obs"
 winget add -e --id VideoLAN.VLC -l "D:\programs\vlc"
-winget add  -e --id DelugeTeam.Deluge -l "D:\programs\deluge"
+winget add -e --id DelugeTeam.Deluge -l "D:\programs\deluge"
 winget add -e --id Nilesoft.Shell -l "D:\programs\nilesoftShell"
 winget add -e --id Parsec.Parsec -l "D:\programs\parsec" -i
 
