@@ -6,8 +6,8 @@ Write-Output "${C_GREEN}desktop-install v0.0.0-alpha.1${C_RESET}"
 # Dev
 winget install -e --id Microsoft.VisualStudioCode -l "D:\programs\visualStudioCode" --custom '/mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"' -i
 winget add -e --id Git.Git -l "D:\programs\git" --custom '/Components=gitlfs,scalar,assoc,assoc_sh,autoupdate' -i
-winget add -e --id OpenJS.NodeJS -l "D:\programs\node" -i
-irm bun.sh/install.ps1 | iex
+winget add -e --id OpenJS.NodeJS -l "D:\programs\node"
+# irm bun.sh/install.ps1 | iex # need fix - script crash when executed
 winget add -e --id Rustlang.Rustup -l "D:\programs\rust"
 winget add -e --id GoLang.Go -l "D:\programs\golang"
 winget add -e --id dbeaver.dbeaver -l "D:\programs\dbeaver"
