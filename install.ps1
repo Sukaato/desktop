@@ -51,7 +51,7 @@ winget add -e --id Microsoft.VCRedist.2015+.x64
 Write-Output "${C_GREEN}Installation terminé${C_RESET}"
 
 Write-Output "${C_GREEN}Recherche de mise à jour...${C_RESET}"
-winget update -r -u --uninstall-previous
+winget update -r -u
 Write-Output "${C_GREEN}Mise à jour terminée${C_RESET}"
 
 
