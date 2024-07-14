@@ -1,7 +1,7 @@
 $C_RESET = [char]27 + "[0m"
 $C_GREEN = [char]27 + "[1;32m"
 
-Write-Output "${C_GREEN}desktop-install v0.0.0-alpha.1${C_RESET}"
+Write-Output "${C_GREEN}desktop-install v0.0.0${C_RESET}"
 
 # Intall in first place all C++ lib since some software need it
 # Microsoft C++
@@ -25,7 +25,7 @@ winget add -e --id Git.Git -l "D:\programs\git" --custom '/Components=gitlfs,sca
 winget add -e --id OpenJS.NodeJS -l "D:\programs\node"
 # irm bun.sh/install.ps1 | iex # need fix - script crash when executed
 winget add -e --id Rustlang.Rustup
-winget add -e --id GoLang.Go -l "D:\programs\golang"
+winget add -e --id GoLang.Go
 winget add -e --id dbeaver.dbeaver -l "D:\programs\dbeaver"
 winget add -e --id Oracle.JDK.17  -l "D:\programs\java\17"
 
@@ -41,8 +41,8 @@ winget add -e --id Discord.Discord
 
 # Tools
 winget add -e --id 7zip.7zip -l "D:\programs\7z"
-winget add -e --id Brave.Brave -l "D:\programs\brave" -i
-winget add -e --id Microsoft.PowerToys -l "D:\programs\powertoys" -i
+winget add -e --id Brave.Brave -i
+winget add -e --id Microsoft.PowerToys -i
 winget add -e --id OBSProject.OBSStudio -l "D:\programs\obs"
 winget add -e --id VideoLAN.VLC -l "D:\programs\vlc"
 winget add -e --id DelugeTeam.Deluge -l "D:\programs\deluge"
