@@ -42,7 +42,7 @@ winget add -e --id Discord.Discord
 # Tools
 winget add -e --id 7zip.7zip -l "D:\programs\7z"
 winget add -e --id Brave.Brave -i
-winget add -e --id Microsoft.PowerToys -i
+winget add -e --id Microsoft.PowerToys
 winget add -e --id OBSProject.OBSStudio -l "D:\programs\obs"
 winget add -e --id VideoLAN.VLC -l "D:\programs\vlc"
 winget add -e --id DelugeTeam.Deluge -l "D:\programs\deluge"
